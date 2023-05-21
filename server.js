@@ -15,7 +15,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://client-psi-opal-69.vercel.app",
     credentials: true,
   })
 );
